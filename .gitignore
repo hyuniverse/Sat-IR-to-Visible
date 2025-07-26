@@ -1,0 +1,36 @@
+# Python Caches and Artifacts
+# 파이썬 실행 시 자동으로 생성되는 캐시 파일들을 무시합니다.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual Environment
+# 가상환경 폴더는 개인 PC에만 필요하므로 제외합니다.
+venv/
+env/
+.venv/
+*.env
+
+
+# Generated Data and Output
+# 코드를 실행할 때마다 다운로드되거나 생성되는 결과물들을 제외합니다.
+/data/
+
+
+# Pre-trained Models
+# 모델 파일(.pt)은 용량이 매우 크므로 Git으로 관리하지 않는 것이 일반적입니다.
+# README.md 파일에 모델을 다운로드할 수 있는 링크를 안내하는 방식을 권장합니다.
+/models/*.pt
+
+
+# OS-specific files
+# 각 운영체제(macOS, Windows 등)가 자동으로 생성하는 시스템 파일들을 제외합니다.
+.DS_Store
+Thumbs.db
+
+
+# Log files
+# 프로그램 실행 로그가 파일로 저장될 경우를 대비해 제외합니다.
+*.log
