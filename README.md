@@ -1,4 +1,4 @@
-# Sat-IR-to-Visible: 위성 적외선-가시광선 영상 변환기
+# Sat-IR-to-Visible: 위성 적외선-가시광선 영상 변환기 [2023.11]
 
 ### 결과 예시 (Demo)
 
